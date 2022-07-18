@@ -49,6 +49,11 @@
 
 #section2 p {
     width: 363px;
+    display: inline-block;
+}
+
+#section2 span {
+    display: block;
 }
 
 #section3 article {
