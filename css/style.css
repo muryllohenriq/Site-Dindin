@@ -18,22 +18,40 @@ header > nav {
     justify-content: flex-end;
     align-items: center;
     height: 117px;
+    margin-right: 90px;
 }
 
 header > img {
     position: absolute;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 
 header > nav > a {
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 40px;
     color: white;
-    font-weight: bolder;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 footer {
     background-color: #419488;
+    display: f;
+}
+
+footer img {
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
 }
 
 #navum {
