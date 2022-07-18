@@ -37,13 +37,21 @@ header > nav > a {
 
 footer {
     background-color: #419488;
-    display: f;
+    height: 207px;
+    display: flex;
 }
 
 footer img {
     align-content: center;
     margin-top: 50px;
     margin-left: 100px;
+}
+
+footer nav {
+    display: flex;
+    margin-left: 310px;
+    height: 207px;
+    align-items: center;
 }
 
 nav ul {
@@ -54,12 +62,7 @@ nav ul a {
     text-decoration: none;
 }
 
-#navum {
-    display: flex;
-    justify-content: center;
+#lista1 {
+    margin-right: 500px;
 }
 
-#navdois {
-    display: flex;
-    justify-content: flex-end;
-}
