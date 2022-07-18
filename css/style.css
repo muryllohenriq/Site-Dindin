@@ -49,7 +49,7 @@ footer img {
 
 footer nav {
     display: flex;
-    margin-left: 310px;
+    margin-left: 210px;
     height: 207px;
     align-items: center;
 }
@@ -63,6 +63,6 @@ nav ul a {
 }
 
 #lista1 {
-    margin-right: 500px;
+    margin-right: 400px;
 }
 
