@@ -21,3 +21,42 @@
     text-decoration: none;
     border: 1px solid #FF4081;
 }
+
+#section1 {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section1 img {
+    height: 270px;
+}
+
+#section1 p {
+    width: 293px;
+    height: 60px;
+    text-align: center;
+}
+
+#section1 a {
+    margin-left: 90px;
+}
+
+#section2 article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2 p {
+    width: 363px;
+}
+
+#section3 article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 a {
+    display: flex;
+    justify-content: center;
+}
