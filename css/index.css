@@ -1,1 +1,23 @@
 @charset "UTF-8";
+
+#index1 {
+    display: flex;
+    justify-content: center;
+}
+
+#index1 h1 {
+    color: #FF4081;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+#index1 p {
+    color: #555555;
+    font-size: 1.5em;
+}
+
+#index1 a {
+    color: #FF4081;
+    text-decoration: none;
+    border: 1px solid #FF4081;
+}
