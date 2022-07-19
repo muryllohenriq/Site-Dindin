@@ -64,5 +64,26 @@ nav ul a {
 
 #lista1 {
     margin-right: 400px;
+    font-size: 1.2em;
+}
+
+#lista1 li {
+    margin-bottom: 10px;
+}
+
+#lista1 a {
+    color: white;
+}
+
+#lista2 li {
+    font-size: 1.3em;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+#lista2 a {
+    color: white;
 }
 
