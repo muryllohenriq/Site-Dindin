@@ -28,6 +28,10 @@
     justify-content: space-around;
 }
 
+#section1 h2 {
+    color: #FF4081;
+}
+
 #section1 img {
     height: 270px;
 }
@@ -40,6 +44,7 @@
 
 #section1 a {
     margin-left: 90px;
+    background-color:  #FF4081;
 }
 
 #section2 article {
