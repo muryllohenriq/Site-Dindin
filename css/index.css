@@ -241,12 +241,16 @@
         flex-flow: column nowrap;
     } 
 
+    #section3 {
+        height: 1280px;
+    }
+
     #section3 h1 {
         font-size: 1.7em;
     }
-
-    #section3 {
-        height: 1200px;
+    
+    #section3 p {
+        margin-bottom: 20px;
     }
 
     #section3 article {

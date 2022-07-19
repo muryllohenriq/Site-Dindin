@@ -89,4 +89,24 @@ nav ul a {
 
 @media only screen and (max-width: 540px) {
     
+    footer {
+        height: 200px;
+    }
+
+    footer nav {
+        margin: 0px;
+    }
+
+    footer img {
+        width: 200px;
+        margin: 0px;
+    }
+
+    footer #lista1 {
+        margin: 0px;
+    }
+
+    footer #lista2 {
+        margin: 0px
+    }
 }
