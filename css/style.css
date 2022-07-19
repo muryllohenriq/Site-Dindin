@@ -89,8 +89,26 @@ nav ul a {
 
 @media only screen and (max-width: 540px) {
     
+    header img {
+        width: 200px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    header nav {
+        flex-flow: column nowrap;
+        margin: 0;
+        margin-left: 400px;
+    }
+
+    header nav a {
+        padding: 9px;
+        font-size: 1.1em;
+    }
+
     footer {
-        height: 200px;
+        height: 207px;
     }
 
     footer nav {
@@ -100,13 +118,22 @@ nav ul a {
     footer img {
         width: 200px;
         margin: 0px;
+        margin-top: 60px;
     }
 
     footer #lista1 {
         margin: 0px;
+        margin-left: 40px;
     }
 
     footer #lista2 {
         margin: 0px
+    }
+
+    #lista2 li {
+        font-size: 0.9em;
+        margin-left: 50px;
+        padding: 10px;
+        text-align: center;
     }
 }
