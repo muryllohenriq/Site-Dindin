@@ -23,9 +23,14 @@
 }
 
 #section1 {
+    height: 730px;
+}
+
+#section1 article {
     background-color: #F6F6F6;
     display: flex;
     justify-content: space-around;
+    height: 730px;
 }
 
 #section1 h2 {
@@ -43,8 +48,11 @@
 }
 
 #section1 a {
-    margin-left: 90px;
+    margin-left: 50px;
+    margin-top: 40px;
     background-color:  #FF4081;
+    text-decoration: none;
+    color: white;
 }
 
 #section2 article {
