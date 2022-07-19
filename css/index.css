@@ -195,4 +195,65 @@
         max-width: 200px;
         margin-top: -80px;
     }
+
+    #section1 {
+        height: 1000px;
+    }
+
+    #section1 article {
+        flex-flow: column nowrap;
+        margin-left: 150px;
+        padding-top: 250px;
+    } 
+
+    #section1 div {
+        margin-bottom: 20px;
+    }
+
+    #section1 img {
+        max-width: 150px;
+        max-height: 150px;
+       
+    }
+
+    #section1 h2 {
+        font-size: 1.2em;
+    }
+
+    #section1 p {
+        font-size: 0.9em;
+        width: 200px;
+        margin-bottom: -10px;
+    }
+
+    #section1 a {
+        width: 110px;
+        padding: 0px 15px 15px 15px;
+        height: 10px;
+        font-size: 1em;
+    }
+
+    #section2 h1 {
+        font-size: 1.8em;
+    }
+
+    #section2 article {
+        flex-flow: column nowrap;
+    } 
+
+    #section3 h1 {
+        font-size: 1.7em;
+    }
+
+    #section3 {
+        height: 1200px;
+    }
+
+    #section3 article {
+        flex-flow: column nowrap;
+    } 
+
+    #section3 a {
+        margin: 0px;
+    }
 }
