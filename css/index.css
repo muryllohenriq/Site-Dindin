@@ -171,3 +171,28 @@
     margin-left: 580px;
     margin-top: 100px;
 }
+
+@media only screen and (max-width: 540px) {
+    
+    #index1 h1 {
+        font-size: 2em;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+
+    #index1 p {
+        font-size: 1.2em;
+        margin-left: -50px;
+    }
+
+    #index1 a {
+        font-size: 1.1em;
+        width: 180px;
+        margin-left: -50px;
+    }
+
+    #index1 img {
+        max-width: 200px;
+        margin-top: -80px;
+    }
+}
