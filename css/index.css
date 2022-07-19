@@ -24,13 +24,17 @@
 
 #section1 {
     height: 730px;
+    background-color: #F6F6F6;
 }
 
 #section1 article {
-    background-color: #F6F6F6;
     display: flex;
     justify-content: space-around;
-    height: 730px;
+    height: 530px;
+}
+
+#section1 div {
+    height: 500px;
 }
 
 #section1 h2 {
