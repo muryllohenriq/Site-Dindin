@@ -8,10 +8,39 @@ h1 {
     color: #FF4081;
 }
 
+main > section {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+main > section > div > h1 {
+    font-size: 3.2em;
+}
+
 main > section > div > p {
     width: 461px;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+article {
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
 article p {
     width: 501px;
+}
+
+iframe {
+    width: 462px;
+    height: 261px;
+}
+
+hr {
+    width: 1244px;
+    height: 5px;
+    margin-left: -100px;
+    margin-top: 80px;
+    background-color: #C4C4C4;
 }
