@@ -2,8 +2,51 @@
 
 main > section {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+main h1 {
+    color: #009688;
+    font-size: 3em;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+main > section > div > p {
+    width: 461px;
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+main img {
+    margin-top: 50px;
+    margin-right: 100px;
 }
 
 article {
     display: flex;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+    padding-bottom: 200px;
+}
+
+#caixa {
+    margin-top: 100px;
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+}
+
+article h2 {
+    color: #FF4081;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+article p {
+    width: 516px;
+    font-size: 1.1em;
+    margin-top: 20px;
 }
