@@ -1,1 +1,9 @@
 @charset "UTF-8";
+
+main > section {
+    display: flex;
+}
+
+article {
+    display: flex;
+}
