@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+main section form {
+    width: 493px;
+}
+
+input {
+    width: 493px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #686868;
+    margin-top: 15px;
+}
+
+textarea {
+    width: 493px;
+    border-radius: 9px;
+    margin-top: 15px;
+}
+
+button {
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF4081;
+    color: white;
+    margin-top: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
