@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
-main > section {
+section {
     display: flex;
 }
 
-article {
-    display: flex;
+h1 {
+    color: #FF4081;
+}
+
+main > section > div > p {
+    width: 461px;
+}
+
+article p {
+    width: 501px;
 }
