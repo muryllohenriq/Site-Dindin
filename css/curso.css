@@ -23,13 +23,33 @@ main > section > div > p {
     margin-top: 30px;
 }
 
+main > section > div > img {
+    margin-left: 70px;
+}
+
 article {
-    margin-top: 100px;
-    margin-left: 200px;
+    margin-top: 70px;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    background-color: #F6F6F6;
+}
+
+article div {
+    margin-top: 70px;
+}
+
+article h1 {
+    font-size: 2em;
 }
 
 article p {
     width: 501px;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+article h1, p {
+    margin-left: 70px;
 }
 
 iframe {
@@ -39,7 +59,7 @@ iframe {
 
 hr {
     width: 1244px;
-    height: 5px;
+    height: 3px;
     margin-left: -100px;
     margin-top: 80px;
     background-color: #C4C4C4;
