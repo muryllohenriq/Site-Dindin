@@ -86,3 +86,11 @@ section a {
     margin-left: 40px;
     margin-top: 40px;
 }
+
+@media only screen and (max-width: 834px) {
+    
+}
+
+@media only screen and (max-width: 428px) {
+    
+}

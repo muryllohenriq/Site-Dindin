@@ -50,3 +50,11 @@ article p {
     font-size: 1.1em;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 834px) {
+    
+}
+
+@media only screen and (max-width: 428px) {
+    
+}

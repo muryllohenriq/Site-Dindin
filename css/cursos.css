@@ -60,3 +60,11 @@ section a {
 footer {
     margin-top: 200px;
 }
+
+@media only screen and (max-width: 834px) {
+
+}
+
+@media only screen and (max-width: 428px) {
+    
+}

@@ -64,3 +64,11 @@ hr {
     margin-top: 80px;
     background-color: #C4C4C4;
 }
+
+@media only screen and (max-width: 834px) {
+
+}
+
+@media only screen and (max-width: 428px) {
+    
+}
