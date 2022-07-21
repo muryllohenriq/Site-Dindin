@@ -50,7 +50,6 @@ footer img {
 footer nav {
     display: flex;
     margin-left: 210px;
-    height: 207px;
     align-items: center;
 }
 
@@ -183,14 +182,12 @@ nav ul a {
     }
 
     footer #lista1 {
-        margin: 0px;
-        margin-bottom: 90px;
+        margin: 0px;       
         margin-left: 5vw;
     }
 
     footer #lista2 {
-        margin: 0px; 
-        margin-bottom: 85px;     
+        margin: 0px;            
     }
 
     #lista2 li {
