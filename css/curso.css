@@ -126,8 +126,24 @@ hr {
 
     article section {
         display: block;
+        margin: 0;
     }
     
+    article iframe {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    article h1 {
+        margin-left: 5vw;
+    }
+
+    article p {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+
     hr {
         width: 10vw;
     }
