@@ -66,9 +66,69 @@ hr {
 }
 
 @media only screen and (max-width: 834px) {
+    
+    main > section {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+     
+    main > section > div > h1 {
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+    }
 
+    main > section > div > p {
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+
+    article section {
+        display: block;
+    }
+
+    article h1 {
+        margin: 0;
+    }
+
+    article p {
+        margin: 0;
+    }
+
+    hr {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 428px) {
     
+    main > section > div > h1 {
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        font-size: 2.5em;
+    }
+
+    main > section > div > p {
+        margin: auto;
+        margin-bottom: 3vh;
+        font-size: 1.2em;
+        width: 90vw;
+    }
+
+    main > section > div > img {
+        margin: 0;
+        height: 40vh;
+    }
+
+    article {
+        padding: 0;
+    }
+
+    article section {
+        display: block;
+    }
+    
+    hr {
+        width: 10vw;
+    }
 }
