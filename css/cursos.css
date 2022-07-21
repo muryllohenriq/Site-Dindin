@@ -71,6 +71,10 @@ footer {
         margin: 0;
     }
 
+    section p {
+        width: 80vw;
+    }
+
     hr {
         width: 80vw;
     }
