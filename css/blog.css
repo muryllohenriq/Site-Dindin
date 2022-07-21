@@ -52,9 +52,75 @@ article p {
 }
 
 @media only screen and (max-width: 834px) {
-    
+
+    main > section {
+        justify-content: space-around;
+    }
+
+    main > section > div > h1 {
+        margin-left: 4vw;
+    }
+
+    main > section > div > p {
+        margin-left: 4vw;
+    }
+
+    img {
+        width: 40vw;
+        margin-right: 0 !important;
+    }
+
+    article {
+        display: block;
+    }
+
+    article section {
+        text-align: center;
+    }
+
+    #caixa {
+        margin: auto;
+        margin-top: 5vh;
+    }
+
+    article p {
+        margin: auto;
+    }
+
 }
 
 @media only screen and (max-width: 428px) {
     
+    main > section > div > h1 {
+        font-size: 1.7em;
+        margin-top: 3vh;
+    }
+
+    main > section > div > p {
+        font-size: 1em;
+        text-align: center;
+        width: 60vw;
+        margin-top: 2vh;
+    }
+
+    main img {
+        width: 40vw;
+        margin-right: 0 !important;
+        margin-top: 1vh !important;
+    }
+
+    #caixa {
+        margin: auto;
+        margin-top: 5vh;
+        width: 90vw;
+    }
+
+    article h2 {
+        margin-bottom: 2vh;
+    }
+
+    article p {
+        margin: auto;
+        width: 90vw;
+    }
 }
