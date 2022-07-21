@@ -264,4 +264,25 @@
 
 @media only screen and (max-width: 428px) {
     
+    #index1 {
+        width: 95vw;
+    }
+
+    #index1 h1 {
+        font-size: 1.3em;
+    }
+
+    #index1 p {
+        font-size: 1.3em;
+    }
+
+    #index1 a {
+        font-size: 1em;
+        width: 30vw;
+    }
+
+    #index1 img {
+        width: 50vw;
+    }
+
 }
