@@ -176,7 +176,7 @@
     
     #index1 h1 {
         font-size: 2em;
-        margin-top: -100px;
+        margin-top: -125px;
         margin-left: -50px;
     }
 
@@ -198,32 +198,34 @@
 
     #section1 {
         height: 1000px;
+        text-align: center;
     }
 
     #section1 article {
         flex-flow: column nowrap;
-        margin-left: 150px;
         padding-top: 250px;
+        text-align: center;
     } 
 
     #section1 div {
         margin-bottom: 20px;
+        text-align: center;
     }
 
     #section1 img {
         max-width: 150px;
         max-height: 150px;
-       
     }
 
     #section1 h2 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     #section1 p {
         font-size: 0.9em;
         width: 200px;
-        margin-bottom: -10px;
+        margin: auto;
+        margin-bottom: 10px;
     }
 
     #section1 a {
@@ -231,6 +233,7 @@
         padding: 0px 15px 15px 15px;
         height: 10px;
         font-size: 1em;
+        margin: auto;
     }
 
     #section2 h1 {
@@ -240,6 +243,15 @@
     #section2 article {
         flex-flow: column nowrap;
     } 
+    
+    #section2 div {
+        justify-content: center;
+    }
+
+    #section2 h1 {
+        text-align: center;
+        margin: 0;
+    }
 
     #section3 {
         height: 1280px;
@@ -247,10 +259,21 @@
 
     #section3 h1 {
         font-size: 1.7em;
+        text-align: center;
+        margin: 0;
     }
     
+    #bloco {
+        margin: auto;
+    }
+
+    #section3 h2 {
+        text-align: center;
+    }
+
     #section3 p {
-        margin-bottom: 20px;
+        margin: auto;
+        margin-bottom: 20px;       
     }
 
     #section3 article {
@@ -258,7 +281,7 @@
     } 
 
     #section3 a {
-        margin: 0px;
+        margin: auto;
     }
 }
 
