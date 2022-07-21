@@ -47,8 +47,36 @@ textarea {
 
 @media only screen and (max-width: 834px) {
 
+    main {
+        height: 54vh;
+    }
+    
+    main section form {
+        width: 10vw;
+    }
+
+    input {
+        width: 40vw;
+    }
+
+    textarea {
+        width: 40vw;
+    }
+
+    div img {
+        width: 50vw;
+        margin-left: 15vw;
+    }
 }
 
 @media only screen and (max-width: 428px) {
     
+    main {
+        height: 49vh;
+    }
+
+    div img {
+        width: 45vw;
+        margin: 0;
+    }
 }
