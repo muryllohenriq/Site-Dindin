@@ -62,9 +62,45 @@ footer {
 }
 
 @media only screen and (max-width: 834px) {
+    
+    article section {
+        display: block;
+    }
 
+    section div {
+        margin: 0;
+    }
+
+    hr {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 428px) {
+
+    article section {
+        margin: 0;
+    }
     
+    section img {
+        width: 85vw;
+        margin-left: 7vw;
+    }
+
+    section div {
+        margin-left: 7vw;
+    }
+
+    section p {
+        width: 90vw;
+    }
+
+    section a {
+        margin-left: 15vw;
+    }
+
+    hr {
+        width: 60vw;
+        margin-bottom: 100px;
+    }
 }
