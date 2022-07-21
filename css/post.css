@@ -89,8 +89,59 @@ section a {
 
 @media only screen and (max-width: 834px) {
     
+    article {
+        margin: 0;
+    }
+
+    article h1 {
+        margin: 0;
+        margin-top: 2vh;
+    }
+
+    article div {
+        margin: auto;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 90vw;
+    }
+
+    article h2 {
+        margin-left: 5vw;
+    }
+
+    article p {
+        margin: 0;
+        margin: auto;
+        width: 90vw;
+    }
+
+    section {
+        background-color: white;
+        margin: 0;
+    }
+
+    section > div {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+
+    section > div > div {
+        margin: auto;
+    }
+
+    section img {
+        margin-top: 2vh;
+    }
+
+    footer {
+        margin-top: 1000px;
+    }
 }
 
 @media only screen and (max-width: 428px) {
     
+    article h1 {
+        font-size: 2.5em;
+    }
 }
