@@ -172,7 +172,7 @@
     margin-top: 100px;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 834px) {
     
     #index1 h1 {
         font-size: 2em;
@@ -262,6 +262,6 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 428px) {
     
 }
