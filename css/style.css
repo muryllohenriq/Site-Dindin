@@ -87,19 +87,19 @@ nav ul a {
     color: white;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 820px) {
     
     header img {
         width: 200px;
         margin: 0;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     header nav {
         flex-flow: column nowrap;
         margin: 0;
-        margin-left: 400px;
+        margin-left: 600px;
     }
 
     header nav a {
@@ -119,15 +119,17 @@ nav ul a {
         width: 200px;
         margin: 0px;
         margin-top: 60px;
+        margin-left: 20px;
     }
 
     footer #lista1 {
         margin: 0px;
-        margin-left: 40px;
+        margin-left: 180px;
     }
 
     footer #lista2 {
-        margin: 0px
+        margin: 0px;
+        margin-left: 100px;
     }
 
     #lista2 li {
@@ -135,5 +137,67 @@ nav ul a {
         margin-left: 50px;
         padding: 10px;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    
+    header {
+        width: 100vw;
+        height: 110px;
+    }
+    
+    header img {       
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    header nav {
+        margin: 0;
+        margin-top: -20px;
+        margin-left: 70vw;
+        font-size: 0.8em;
+    }
+
+    footer {
+        width: 100vw;
+        height: 110px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer img {
+        width: 125px;
+    }
+
+    footer div {
+        margin-top: 30px;
+    }
+
+    footer nav {
+        margin: 0px;
+    }
+
+    footer img {       
+        margin: 0px;
+    }
+
+    footer #lista1 {
+        margin: 0px;
+        margin-bottom: 90px;
+        margin-left: 5vw;
+    }
+
+    footer #lista2 {
+        margin: 0px; 
+        margin-bottom: 85px;     
+    }
+
+    #lista2 li {
+        height: 20px;
+        width: 21vw;
+        margin: 0;
+        margin-bottom: 1vh;
+        margin-left: 6vw;
     }
 }
