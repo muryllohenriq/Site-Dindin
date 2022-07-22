@@ -39,6 +39,7 @@ button {
     background-color: #FF4081;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 textarea {
